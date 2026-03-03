@@ -165,7 +165,7 @@ codex mcp add gitnexus -- npx -y gitnexus@latest mcp
 }
 ```
 
-**OpenCode** (`~/.config/opencode/config.json`):
+**OpenCode** (`~/.config/opencode/opencode.json`):
 
 ```json
 {
