@@ -116,14 +116,14 @@ claude mcp add gitnexus -- npx -y gitnexus@latest mcp
 }
 ```
 
-**OpenCode** (`~/.config/opencode/config.json`):
+**OpenCode** (`~/.config/opencode/opencode.json`):
 
 ```json
 {
   "mcp": {
     "gitnexus": {
-      "command": "npx",
-      "args": ["-y", "gitnexus@latest", "mcp"]
+      "type": "local",
+      "command": ["npx", "-y", "gitnexus@latest", "mcp"]
     }
   }
 }
